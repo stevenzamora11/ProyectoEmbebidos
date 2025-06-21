@@ -1,0 +1,108 @@
+/* Reseteo de espacios */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --color-fondo: #313e51;
+    --color-pregunta: #bdd72d;
+    --color-fondo-opcion: #3c4c67;
+    --color-opcion: #c5bfbf;
+    --color-opcion-hover: #000;
+    --tamanio-pregunta: 2rem;
+    --tamanio-opcion: 1.8rem;
+}
+
+/* Fuente */
+@font-face {
+    font-family: 'Departure Mono';
+    src: url('../ASSETS/fonts/DepartureMono-Regular.otf');
+}
+
+body {
+    background-color: var(--color-fondo);
+    font-family: 'Departure Mono';
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenedor-central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    padding: 16px;
+}
+
+.pregunta {
+    color: var(--color-pregunta);
+    font-size: var(--tamanio-pregunta);
+    margin: 8px 8px 32px;
+    text-align: center;
+}
+
+.opcion {
+    background-color: var(--color-fondo-opcion);
+    color: var(--color-opcion);
+    margin: 8px;
+    padding: 4px;
+    font-size: var(--tamanio-opcion);
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    &:hover {
+        background-color: var(--color-pregunta);
+        color: var(--color-opcion-hover);
+    }
+}
+
+.correcta::after {
+    content: '✅';
+    margin-left: 16px;
+}
+
+.incorrecta::after {
+    content: '❌';
+    margin-left: 16px;
+}
+
+@keyframes parpadeo {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.correcta, .incorrecta {
+    animation: parpadeo 0.3s ease-in-out 1;
+}
+
+.total {
+    color: var(--color-opcion);
+    text-align: center;
+    margin: 8px 8px 32px;
+    font-size: var(--tamanio-opcion);
+}
+
+.contenedor-boton {
+    text-align: center;
+}
+
+#reiniciarBtn {
+    background-color: var(--color-pregunta);
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: var(--tamanio-pregunta);
+    &:hover {
+        border: 1px solid var(--color-pregunta);
+        background-color: var(--color-fondo);
+        color: var(--color-pregunta);
+    }
+}

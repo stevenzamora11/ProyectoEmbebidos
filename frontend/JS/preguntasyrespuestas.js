@@ -1,0 +1,258 @@
+export const preguntasYRespuestas = {
+    "amor infinito": [
+        {
+            pregunta: "¿Qué fenómeno óptico se utiliza en la exhibición 'Amor Infinito'?",
+            respuestas: [
+                "Interferencia",
+                "Reflexión infinita",
+                "Difracción",
+                "Dispersión"
+            ],
+            respuestaCorrecta: "Reflexión infinita"
+        },
+        {
+            pregunta: "¿Qué produce el efecto visual del 'espejo infinito'?",
+            respuestas: [
+                "La curvatura de los espejos",
+                "La absorción de luz",
+                "El uso de espejos enfrentados",
+                "La refracción del vidrio"
+            ],
+            respuestaCorrecta: "El uso de espejos enfrentados"
+        },
+        {
+            pregunta: "¿Qué simboliza el corazón en la instalación de Amor Infinito?",
+            respuestas: [
+                "La ciencia del amor",
+                "El infinito y el reflejo eterno del amor",
+                "La óptica emocional",
+                "La unión de los espejos"
+            ],
+            respuestaCorrecta: "El infinito y el reflejo eterno del amor"
+        }
+    ],
+    "anamorfismo": [
+        {
+            pregunta: "¿Qué es una imagen anamórfica?",
+            respuestas: [
+                "Una imagen invisible",
+                "Una imagen que solo se ve con rayos UV",
+                "Una imagen que necesita una perspectiva especial para verse correctamente",
+                "Una imagen que cambia de color"
+            ],
+            respuestaCorrecta: "Una imagen que necesita una perspectiva especial para verse correctamente"
+        },
+        {
+            pregunta: "¿Qué forma geométrica se utiliza en la exhibición de anamorfismo para revelar la imagen distorsionada?",
+            respuestas: [
+                "Pirámide",
+                "Esfera",
+                "Cilindro",
+                "Prisma"
+            ],
+            respuestaCorrecta: "Cilindro"
+        },
+        {
+            pregunta: "¿Qué principio se relaciona con la percepción correcta de una imagen anamórfica?",
+            respuestas: [
+                "Reflexión especular",
+                "Difracción",
+                "Refracción",
+                "Absorción"
+            ],
+            respuestaCorrecta: "Reflexión especular"
+        }
+    ],
+    "blower-bernoulli": [
+        {
+            pregunta: "¿Qué principio físico permite que las pelotas del Blower-Bernoulli permanezcan suspendidas en el aire?",
+            respuestas: [
+                "Principio de Pascal",
+                "Principio de Arquímedes",
+                "Principio de Bernoulli",
+                "Principio de Newton"
+            ],
+            respuestaCorrecta: "Principio de Bernoulli"
+        },
+        {
+            pregunta: "¿Qué ocurre con la velocidad del aire cuando pasa por un espacio más angosto, según el principio de Bernoulli?",
+            respuestas: [
+                "Disminuye",
+                "Aumenta",
+                "Se mantiene constante",
+                "Se detiene"
+            ],
+            respuestaCorrecta: "Aumenta"
+        },
+        {
+            pregunta: "¿Qué sucede con la presión del fluido cuando su velocidad aumenta?",
+            respuestas: [
+                "Aumenta",
+                "Se mantiene",
+                "Disminuye",
+                "No cambia"
+            ],
+            respuestaCorrecta: "Disminuye"
+        }
+    ],
+    "caleidoscopios": [
+        {
+            pregunta: "¿Qué se observa al mirar dentro de un caleidoscopio?",
+            respuestas: [
+                "Un patrón de figuras simétricas",
+                "Un reflejo borroso",
+                "Una imagen tridimensional",
+                "Una proyección láser"
+            ],
+            respuestaCorrecta: "Un patrón de figuras simétricas"
+        },
+        {
+            pregunta: "¿Qué principios ópticos están involucrados en el caleidoscopio?",
+            respuestas: [
+                "Refracción y polarización",
+                "Interferencia y difracción",
+                "Reflexión múltiple",
+                "Absorción y emisión"
+            ],
+            respuestaCorrecta: "Reflexión múltiple"
+        },
+        {
+            pregunta: "¿Qué objeto dentro del caleidoscopio genera los patrones?",
+            respuestas: [
+                "Una lente",
+                "Espejos dispuestos en ángulo",
+                "Un prisma",
+                "Un rayo láser"
+            ],
+            respuestaCorrecta: "Espejos dispuestos en ángulo"
+        }
+    ],
+    "caja de faraday": [
+        {
+            pregunta: "¿Cuál es el propósito de una caja de Faraday?",
+            respuestas: [
+                "Aumentar la señal eléctrica",
+                "Proteger de campos eléctricos externos",
+                "Generar ondas electromagnéticas",
+                "Transformar corriente en calor"
+            ],
+            respuestaCorrecta: "Proteger de campos eléctricos externos"
+        },
+        {
+            pregunta: "¿Qué propiedad física permite que la caja de Faraday funcione?",
+            respuestas: [
+                "Conducción eléctrica",
+                "Inducción térmica",
+                "Polarización del aire",
+                "Aislamiento térmico"
+            ],
+            respuestaCorrecta: "Conducción eléctrica"
+        },
+        {
+            pregunta: "¿Qué ocurre si se usa una caja de Faraday correctamente?",
+            respuestas: [
+                "Se genera electricidad",
+                "Se bloquean señales externas",
+                "Se amplifican los campos eléctricos",
+                "Se visualizan rayos"
+            ],
+            respuestaCorrecta: "Se bloquean señales externas"
+        }
+    ],
+    "caja negra": [
+        {
+            pregunta: "¿Qué representa una caja negra en ciencia?",
+            respuestas: [
+                "Un objeto desconocido sin entradas ni salidas",
+                "Un sistema del que solo se conocen las entradas y salidas",
+                "Un experimento con luz infrarroja",
+                "Un contenedor con materiales peligrosos"
+            ],
+            respuestaCorrecta: "Un sistema del que solo se conocen las entradas y salidas"
+        },
+        {
+            pregunta: "¿Qué busca el usuario al interactuar con la caja negra?",
+            respuestas: [
+                "Generar electricidad",
+                "Encender luces",
+                "Inferir cómo funciona internamente",
+                "Ver reflejos"
+            ],
+            respuestaCorrecta: "Inferir cómo funciona internamente"
+        },
+        {
+            pregunta: "¿Qué tipo de razonamiento se desarrolla con la caja negra?",
+            respuestas: [
+                "Lógico y deductivo",
+                "Mecánico y experimental",
+                "Espacial y motriz",
+                "Empírico y teórico"
+            ],
+            respuestaCorrecta: "Lógico y deductivo"
+        }
+    ],
+    "carro de newton": [
+        {
+            pregunta: "¿Qué ley de Newton se demuestra con el carro de Newton?",
+            respuestas: [
+                "Primera ley de Newton",
+                "Segunda ley de Newton",
+                "Tercera ley de Newton",
+                "Ley de gravitación universal"
+            ],
+            respuestaCorrecta: "Tercera ley de Newton"
+        },
+        {
+            pregunta: "¿Qué sucede cuando un carro de Newton golpea otro?",
+            respuestas: [
+                "Ambos se detienen",
+                "Uno acelera",
+                "Se transfiere el impulso al último",
+                "Pierden energía"
+            ],
+            respuestaCorrecta: "Se transfiere el impulso al último"
+        },
+        {
+            pregunta: "¿Qué propiedad física se conserva en el carro de Newton?",
+            respuestas: [
+                "Presión",
+                "Energía térmica",
+                "Cantidad de movimiento",
+                "Peso"
+            ],
+            respuestaCorrecta: "Cantidad de movimiento"
+        }
+    ],
+    "circuito eléctrico": [
+        {
+            pregunta: "¿Qué es necesario para que un circuito eléctrico funcione?",
+            respuestas: [
+                "Un conductor, una batería y un interruptor",
+                "Una resistencia, un espejo y agua",
+                "Un tubo de ensayo y clavos",
+                "Un interruptor térmico"
+            ],
+            respuestaCorrecta: "Un conductor, una batería y un interruptor"
+        },
+        {
+            pregunta: "¿Qué ocurre si el circuito se abre?",
+            respuestas: [
+                "Se calienta",
+                "La corriente se interrumpe",
+                "Se genera más voltaje",
+                "El foco se enciende"
+            ],
+            respuestaCorrecta: "La corriente se interrumpe"
+        },
+        {
+            pregunta: "¿Qué tipo de energía se convierte en un circuito con una bombilla?",
+            respuestas: [
+                "Energía térmica a energía luminosa",
+                "Energía eléctrica a energía luminosa",
+                "Energía solar a energía eléctrica",
+                "Energía térmica a energía eléctrica"
+            ],
+            respuestaCorrecta: "Energía eléctrica a energía luminosa"
+        }
+    ]
+};
