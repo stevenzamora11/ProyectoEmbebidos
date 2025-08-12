@@ -127,7 +127,18 @@ def scores():
 
 @app.get('/api/ranking')
 def ranking():
-    filas = query_ranking('SELECT jugador, tema, aciertos, fecha FROM scores ORDER BY fecha DESC LIMIT 10')
+    # Obtener solo la última vez que cada jugador jugó cada tema
+    filas = query_ranking('''
+        SELECT jugador, tema, aciertos, fecha 
+        FROM scores s1 
+        WHERE fecha = (
+            SELECT MAX(fecha) 
+            FROM scores s2 
+            WHERE s2.jugador = s1.jugador AND s2.tema = s1.tema
+        )
+        ORDER BY fecha DESC, aciertos DESC 
+        LIMIT 10
+    ''')
     return jsonify([
         {
             'jugador': f['jugador'],
